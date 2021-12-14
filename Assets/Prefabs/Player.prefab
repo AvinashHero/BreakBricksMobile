@@ -94,8 +94,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxBounceAngle: 75
-  minX: -17.374
-  maxX: 17.374
+  minX: -16.74
+  maxX: 16.74
 --- !u!1 &2486124571762086672
 GameObject:
   m_ObjectHideFlags: 0
