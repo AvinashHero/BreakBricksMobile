@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2647224697901267505}
   - component: {fileID: 2647224697901267506}
   - component: {fileID: 4442494581209188529}
+  - component: {fileID: 7675663672274388987}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2647224697901267508}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 4.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -127,3 +128,19 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 5836fc19da49cd24c915bd0b6e29a010, type: 2}
   - {fileID: 2100000, guid: 15e57256dc04dfe44b4a9d7b3a97ab92, type: 2}
   unbreakable: 0
+  points: 100
+--- !u!114 &7675663672274388987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2647224697901267508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd85ee22c2f68c4aa2fdeda0887dfd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  executeInUpdate: 1
+  anchorType: 4
+  anchorOffset: {x: 0, y: 0, z: 0}
